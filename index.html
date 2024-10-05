@@ -6,72 +6,81 @@
     <title>Travel website</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
+</body>
+<header>
     <nav class="site-nav grid">
         <h1>Travel</h1>
         <img src="images/menu.svg" alt="pic of menu">
     </nav>
-    <section id="welcome" class="grid">
-        <div class="welcome-text"><h2>Travel around the world</h2></div>
-        <div class="welcome-img">
-            <img src="images/banner_image.png" alt="welcome-img">
+    <section id="home" class="grid">
+        <div class="home-text"><h2>Travel around the world</h2></div>
+        <div class="home-img">
+            <img src="images/banner_image.png" alt="home-img">
         </div>
     </section>
-    <section id="destinations">
+    <p id="text1" class="leading">Travel around the world to see the beauty of nature easily and safely with Travel.</p>
+   <p id="text2" class="leading">We Are The Best Travel Agent</p>
+   <p id="text3" class="leading">Everyone is young once, but not everyone has traveled the world!</p>
+    <section >
         <h3>Find your best destination</h3>
         <p>We have more than 1000+ destinations you can choose</p>
-        <section id="location">
-            <div class="locatin grid">
+    </header>
+        <section id="destination">
+            <div class="destination grid">
                 <a href="">
                     <img src="images/location_Image_1.png" alt="location">
                     <h4>Mirror Lake</h4>
-                    <p>Jawa Tengah, Indonesia</p>
+                    <p><img src="images/Location.svg" alt="">Jawa Tengah, Indonesia</p>
                 </a>
                 <a href="">
                     <img src="images/location_Image_2.png" alt="location">
                     <h4>Hot Air Balloon</h4>
-                    <p>Cappadocia, Turkey</p>
+                    <p><img src="images/Location.svg" alt="">Cappadocia, Turkey</p>
                 </a><a href="">
                     <img src="images/location_Image_3.png" alt="location">
                     <h4>Oeschinen Lake</h4>
-                    <p>Pasuruan, Indonesia</p>
+                    <p><img src="images/Location.svg" alt="">Pasuruan, Indonesia</p>
                 </a><a href="">
                     <img src="images/location_Image_4.png" alt="location">
                     <h4>Rhine Falls</h4>
-                    <p>Jawa Tengah, Indonesia</p>
+                    <p><img src="images/Location.svg" alt="">Jawa Tengah, Indonesia</p>
                 </a><a href="">
                     <img src="images/location_Image_5.png" alt="location">
                     <h4>Sunter Lake</h4>
-                    <p>Jawa Tengah, Indonesia</p>
+                    <p><img src="images/Location.svg" alt="">Jawa Tengah, Indonesia</p>
                 </a><a href="">
                     <img src="images/location_Image_6.png" alt="location">
                     <h4>Negeri di atas Awan</h4>
-                    <p>Jawa Tengah, Indonesia</p>
+                    <p><img src="images/Location.svg" alt="">Jawa Tengah, Indonesia</p>
                 </a>
             </div>
     </section>
     </section>
-    <section id="about">
-        <h3>Why must choose us</h3>
+    <section id="guide">
+        <h5>Why must choose us</h5>
         <p>We have been around for over 10 years. Accompany all our customers all over the world. Thousands of our customers always recommend us because of the service we provide. We are always re-elected and now you will choose us as your travel agent!</p>
         <ul class="grid">
-            <li>
-                <h4>Best Guide, Best Experience.</h4>
+            <li id="colorless">
+                <h6>Best Guide, Best Experience.</h6>
                 <p class="leading">Your trip will be very memorable with the best guide.</p>
-                <a href="" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
+                <a href="" id="detail-1" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
             </li>
-            <li>
-                <h4>Always have Special Tickets.</h4>
+            <li id="color">
+                <h6>Always have Special Tickets.</h6>
                 <p class="leading">We always offer special tickets and we give them to all customers</p>
-                <a href="" class="button">More details <img src="images/arrow-right.svg" alt=""></a>
+                <a href="" id="detail-2" class="button">More details <img src="images/arrow-right.svg" alt=""></a>
             </li>
-            <li>
-                <h4>Always Ready Support 24/7.</h4>
+            <li id="colorless">
+                <h6>Always Ready Support 24/7.</h6>
                 <p class="leading">We always make time to ask questions anytime and anywhere.</p>
-                <a href="" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
+                <a href="" id="detail-3" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
             </li>
         </ul>
     </section>
@@ -87,25 +96,27 @@
     </section>
     <section class="video">
         <h3>Watch our entire trip documentation</h3>
-        <video src="images/Video.png"></video>
+        <img src="images/video_Image.png" ><img src="images/Playbutton.svg" alt=""></img>
     </section>
-    <section class="offer">
+    <section id="contact">
         <footer>
         <div>
             <h3>Get our best offer now!</h3>
             <a href="" class="button">Click here</a>
         </div>
         <div>
-            <div class="grid"><h4>Travel</h4>
+            <div class="grid"><h1>Travel</h1>
             <p class="leading">The best travel agent in the world. Contact us immediatly now!</p>
-        <li><a href=""><img src="images/Icon_ig.png" alt="instagram"></a></li>
-        <li><a href=""><img src="images/Icon_tw.png" alt="twitter"></a></li>
-        <li><a href=""><img src="images/Icon_yt.png" alt="youtube"></a></li>
+        <li><a href=""><img src="images/Icon_ig.svg" alt="instagram"></a></li>
+        <li><a href=""><img src="images/Icon_tw.svg" alt="twitter"></a></li>
+        <li><a href=""><img src="images/Icon_yt.svg" alt="youtube"></a></li>
+        <img src="images/back" alt="">
         </div>
-<div><ul class="footer grid"><li>Home</li>
-<li>Destination</li>
-<li>Guide</li>
-<li>Contact Us</li></ul></div>
+<div><ul class="footer grid">
+    <li><a href="#home"> Home</a></li>
+<li><a href="#destination">Destination</a></li>
+<li><a href="#guide">Guide</a></li>
+<li><a href="#contact">Contact Us</a></li></ul></div>
         </div>
     </section>
 </footer>
