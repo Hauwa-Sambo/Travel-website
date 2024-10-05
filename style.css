@@ -103,6 +103,70 @@ h1{
 .grid{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
+}
+.site-nav{
+    margin: 0 20px;
+    padding: 16px 20px 16px 20px;
+    justify-content: space-between;
+}
+.site-nav h1{
+grid-column: 1/5;
+color: #25A59E;
+}
+#home{
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.home-text{
+    grid-column: 1/7;
+}
+.home-img{
+    grid-row:2;
+    grid-column: 1/6;
+    background: url(images/Ellipse\ 168.png), url(images/Blurry.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 0 24px;
+    width: fit-content;
+}
+.destination a{
+    grid-column: 1/7;
+    margin: 20px 0;
+    gap: 8px;
 
+}
+.destination a * {
+    margin: 0 20px;
+    align-self: center;
+}
+.guide li{
+    grid-column: 1/7;
+    margin: 20px 0;
+    gap: 28px;
     
+}
+.guide li*{
+    margin: 0 20px;
+    align-self: center;
+}
+.guide a{
+    text-align: flex;
+}
+.contact ul{
+    align-self: center;
+    gap: 42px;
+    padding: 0 40px;
+}
+.contact li{
+    grid-column: span 1;
+
+}
+
+.footer ul{
+    padding: 0 20px;
+    margin: 0 24px
+}
+.footer li{
+    grid-column: span 1;
 }
