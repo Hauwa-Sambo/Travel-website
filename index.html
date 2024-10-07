@@ -11,6 +11,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 </body>
@@ -18,9 +20,27 @@
     <nav class="site-nav grid">
         <h1>Travel</h1>
         <img src="images/menu.svg" alt="pic of menu">
+        <div class="hidden">
+            <div class="time">
+            <time datetime="">9:41</time>
+        </div>
+        <div class="top-icon">
+            <i class="fa fa-signal"></i>
+            <i class="fa fa-wifi"></i>
+            <i class="fa fa-battery-bar"></i>
+            
+        </div>
+        
+        <div class="refresh >
+            <i class="material-icons" >&#xe5d5;</i>
+        </div>
+        <div class="lock">
+           <button id="lock"><i class="material-icons">&#xe897;</i>floattalk.co</button>
+        </div>
+    </div>
     </nav>
     <section id="home" class="grid">
-        <div class="home-text"><h2>Travel around the world</h2></div>
+        <div class="home-text"><h2><span style="color: #25a59e;">Travel</span> around the world</h2></div>
         <div class="home-img">
             <img src="images/banner_image.png" alt="home-img">
         </div>
@@ -72,17 +92,17 @@
             <li id="colorless">
                 <h6>Best Guide,<br> Best Experience.</h6>
                 <p class="leading">Your trip will be very memorable with the best guide.</p>
-                <a href="" id="detail-1" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
+                <a href="" id="detail-1" class="more button">More details <img src="images/arrow-right 2.svg" alt=""></a>
             </li>
             <li id="color">
                 <h6>Always have <br> Special Tickets.</h6>
                 <p class="leading">We always offer special tickets and we give them to all customers</p>
-                <a href="" id="detail-2" class="button">More details <img src="images/arrow-right.svg" alt=""></a>
+                <a href="" id="detail-2" class="more button">More details <img src="images/arrow-right.svg" alt=""></a>
             </li>
             <li id="colorless">
                 <h6>Always Ready <br> Support 24/7.</h6>
                 <p class="leading">We always make time to ask questions anytime and anywhere.</p>
-                <a href="" id="detail-3" class="button">More details <img src="images/arrow-right 2.svg" alt=""></a>
+                <a href="" id="detail-3" class=" more button">More details <img src="images/arrow-right 2.svg" alt=""></a>
             </li>
         </ul>
     </section>

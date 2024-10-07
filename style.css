@@ -114,6 +114,47 @@ h1{
 grid-column: 1/5;
 color: #25A59E;
 }
+.time{
+    font-family: SF Pro text;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    float: inline-start;
+}
+.top-icon{
+    display: inline-block;
+    color: #262626;
+    justify-content: flex-end;
+}
+.refresh{
+    justify-content: right;
+    color:#737FA0;
+}
+.lock{
+    color: #1D3066;
+    display: inline-block;
+}
+#lock{
+    color: #1D3066;
+    font-family: urbanist;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+width: 356px;
+height: 34px;
+border-radius: 10px;
+justify-content: center;
+
+
+
+}
+.hidden{
+    display:none ;
+}
+
+
 #home{
     padding-left: 24px;
     padding-right: 24px;
@@ -182,6 +223,7 @@ color: #25A59E;
     top: 50%;
     border-radius: 0%;
 }
+
 .contact ul{
     align-items: center;
     gap: 42px;
@@ -192,7 +234,8 @@ color: #25A59E;
     justify-content: center;
     gap: 12px;
     vertical-align: middle;
-    
+    text-align: center;
+    margin: 0 auto;
 }
 #contact h3{
     text-wrap: wrap;
