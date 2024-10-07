@@ -134,7 +134,7 @@ color: #25A59E;
 }
 .lock{
     color: #1D3066;
-    display: inline-block;
+
 }
 #lock{
     color: #1D3066;
@@ -146,9 +146,6 @@ width: 356px;
 height: 34px;
 border-radius: 10px;
 justify-content: center;
-
-
-
 }
 .hidden{
     display:none ;
