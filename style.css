@@ -28,6 +28,15 @@ body{
 }
 #detail-3{
     color: #25A59E;
+    
+}
+.more{
+    margin-left:180px;
+    font-family: 'gilda display';
+    font-size:15px ;
+    line-height: 23px;
+    border: 0.2px;
+    font-weight: 400px;
 }
 #color{
     background-color: #25A59E;
@@ -38,61 +47,63 @@ body{
     border-radius: 20px;
 }
 h2{
-    font-family: gilda  display;
+    font-family: 'gilda display';
     font-size: 52px;
     font-weight: 400;
     text-align: center;
     line-height: 61.2px;
 }
 h3{
-    font-family: gilda  display;
+    font-family: 'gilda display';
     font-size: 40px;
     font-weight: 400;
     border: 0.2px;
     line-height: 52px;
     color: #262626;
+    padding-left: 24px;
 }
 h5{
-    font-family: gilda  display;
+    font-family: 'gilda display';
     font-size: 40px;
     font-weight: 400;
     border: 0.2px;
     line-height: 52px;
     color: #262626;
     text-align: center;
-
 }
 h6{
-    font-family: gilda  display;
+    font-family: 'gilda display';
     font-size: 28px;
     font-weight: 400;
     border: 0.4px;
     line-height: 40px;
     color: #262626;
+    padding-left: 24px;
 }
 h4{
-    font-family: urbanist;
+    font-family: 'urbanist';
     font-size: 24px;
     font-weight: 700;
     line-height: 36px;
     color: #262626;
 }
 p{
-    font-family: urbanist;
+    font-family: 'urbanist';
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #595959;
+    
 }
 a{
-    font-family: urbanist;
+    font-family: 'urbanist';
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
     color: #595959;
 }
 h1{
-    font-family: gilda  display;
+    font-family: 'gilda display';
     font-size: 16px;
     font-weight: 400;
     line-height: 18.83px;
@@ -100,6 +111,7 @@ h1{
     width: 52px;
     height: 19px;
     border: 0.7px;
+    padding-left: 10px;
 }
 .grid{
     display: grid;
@@ -108,97 +120,111 @@ h1{
 .site-nav{
     margin: 0 20px;
     padding: 16px 20px 16px 20px;
-    justify-content: space-between;
+}
+.menu {
+    margin-left: 250px;
 }
 .site-nav h1{
 grid-column: 1/5;
 color: #25A59E;
 }
-.time{
-    font-family: SF Pro text;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20px;
-    text-align: center;
-    color: #000000;
-    float: inline-start;
-}
-.top-icon{
-    display: inline-block;
-    color: #262626;
-    justify-content: flex-end;
-}
-.refresh{
-    justify-content: right;
-    color:#737FA0;
-}
-.lock{
-    color: #1D3066;
-
-}
-#lock{
-    color: #1D3066;
-    font-family: urbanist;
-    font-size: 15px;
-    line-height: 18px;
-    text-align: center;
-width: 356px;
-height: 34px;
-border-radius: 10px;
-justify-content: center;
-}
-.hidden{
-    display:none ;
-}
-
 
 #home{
     padding-left: 24px;
     padding-right: 24px;
 }
 .home-text{
-    grid-column: 1/5;
-    text-wrap: wrap;
+    grid-column: 1/8;
+    
+}
+span{
+    color: #25A59E;
 }
 .home-img{
     grid-row:2;
     grid-column: 1/6;
-    background: url(images/Ellipse\ 168.png), url(images/Blurry.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    margin: 0 24px;
     width: fit-content;
 
 }
+.blurry{
+    transform: translateY(-55%);
+}
+.Ellipse{
+    transform: translateY(-199%);
+    margin-left: 20px;
+}
+.banner{
+    transform: translateY(-269.5%);
+}
+.find h3{
+    margin-top: -500px;
+}
 .destination a{
     grid-column: 1/7;
-    margin: 20px 0;
+    margin-left:1px;
     gap: 8px;
-
+    border: 1px solid #f2f2f2;
+    /* padding: 16px 16px 32px 16px; */ */
+}
+.im{
+    transform: rotate(180deg);
+    padding:16px 16px 36px 16px ;
 }
 .destination a * {
-    margin: 0 20px;
+    /* margin: 0 20px; */
     align-self: center;
 }
+.social{
+    
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.inst, .tw, .yt{
+    width: 50px;
+}
+.tw{
+    margin-right: 10px; 
+}
 .img{
-    background-image: url(images/Shape.png);
+    /* background-image: url(images/Shape.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position:10px 10px; */
     margin: 0 24px;
     width: 270px;
-
+    
+}
+.Shape{
+    margin-left: 50px;
+    transform: translateY(73%);
+}
+.group_Image{
+    transform: translateY(-65%);
+}
+/* .text{
+    text-align: left;
+} */
+.listtop{
+    border: 4px solid #25A59E; 
+    margin: 29px;
+    margin-bottom: -50.2px;
 }
 .guide li{
     grid-column: 1/7;
     margin: 20px 0;
     gap: 28px;
-    
+    border: 2px solid #f2f2f2;
+    /* border-top: 4px solid #25A59E; */
 }
 .guide li*{
     margin: 0 20px;
-    align-self: center;
+    /* align-self: center; */
 }
 .guide a{
     align-self: right;
@@ -208,8 +234,19 @@ justify-content: center;
 
 }
 .video h3{
-    text-wrap: wrap;
+    text-align: center;
     margin-block: 20px;
+    margin-top: -150px;
+}
+.video{
+    margin: 24px;
+}
+.play{
+    margin: 150px;
+    transform: translateY(-450%);
+}
+.get h3{
+    margin-top: -350px;
 }
 .click{
     background-color: #25A59E;
@@ -221,19 +258,14 @@ justify-content: center;
     border-radius: 0%;
 }
 
-.contact ul{
-    align-items: center;
-    gap: 42px;
-    padding: 0;
-}
-.contact {
-    display: flex;
-    justify-content: center;
+/* .contact {
+    /* display: flex; */
+    /* justify-content: center;
     gap: 12px;
     vertical-align: middle;
     text-align: center;
-    margin: 0 auto;
-}
+    margin: 0 auto; */
+} */
 #contact h3{
     text-wrap: wrap;
 }
@@ -246,41 +278,12 @@ justify-content: center;
     text-wrap:nowrap;
     grid-column: span 1;
 }
-
+.last{
+    padding-left: 0px;
+}
 
 hr.solid{
     border-top: 1px solid #d9d9d9;
 }
-#text1{
-    color: #ffffff;
-    font-family: urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-}
-#text1 hr.solid{
-    border-top: 1px solid #ffffff;
-    align-items: center;
-}
-#text2{
-    color: #ffffff;
-    font-family: gilda display;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    text-align: center;
-}
-#text2 hr.solid{
-    border-top: 1px solid #ffffff;
-    align-items: center;
-}
-#text3{
-    color: #ffffff;
-    font-family: urbanist;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    text-align: center;
-}
+
 
