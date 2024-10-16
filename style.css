@@ -9,8 +9,6 @@
 
 }
 body,p,a,ul,li{
-    margin: 20px;
-    padding: 10px;
     text-decoration: none;
 }
 li{
@@ -18,11 +16,10 @@ li{
 }
 body{
     background-color: var(--light-color);
-    overflow-x: hidden;
 }
 #detail-1{
     color: #25A59E;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
 }
 #detail-2{
     color: #FFFFFF;
@@ -31,13 +28,16 @@ body{
     color: #25A59E;
 }
 .more {
-    margin-left:260px;
+    display: flex; 
+    justify-content: flex-end;
+    /* margin-left:260px; */
     font-family: 'gilda display';
     font-size:15px ;
     line-height: 23px;
-    border: 0.2px;
+    border: 0.2px; 
     font-weight: 400px;
     line-height: 100px;
+    margin: 20px;
 }
 #color{
     background-color: #25A59E;
@@ -55,16 +55,17 @@ h2{
 }
 h3{
     font-family: 'gilda display';
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 400;
     border: 0.2px;
     line-height: 52px;
     color: #262626;
-    padding-left: 24px;
+    padding-left: 20px;
 }
 h5{
     font-family: 'gilda display';
-    font-size: 40px;
+    font-size: 54px;
+    /* 40px */
     font-weight: 400;
     border: 0.2px;
     line-height: 52px;
@@ -73,12 +74,12 @@ h5{
 }
 h6{
     font-family: 'gilda display';
-    font-size: 28px;
+    font-size: 45px;
     font-weight: 400;
     border: 0.4px;
     line-height: 40px;
     color: #262626;
-    padding-left: 24px;
+    padding-left: 24px; 
 }
 h4{
     font-family: 'urbanist';
@@ -86,7 +87,7 @@ h4{
     font-weight: 700;
     line-height: 36px;
     color: #262626;
-    margin-left: 20px;
+    margin-left: 10px;
     margin-bottom: -20px;
 }
 p{
@@ -109,8 +110,8 @@ h1{
     font-weight: 400;
     line-height: 18.83px;
     color: #25A59E;
-    width: 52px;
-    height: 19px;
+    /* width: 52px;
+    height: 19px; */
     border: 0.7px;
 }
 .grid{
@@ -129,71 +130,100 @@ grid-column: 1/5;
 color: #25A59E;
 }
 #home{
-    padding-left: 24px;
-    padding-right: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    position: relative;
 }
 .home-text{
-    grid-column: 1/8;
+    grid-column: 1/7;
+    align-self: center;
 }
 span{
     color: #25A59E;
 }
+.home .grid{
+    display: flex;
+    /* position: relative; */
+}
 .home-img{
     grid-row:2;
-    grid-column: 1/6;
-    background-size: contain;
+    grid-column: 1/7;
+    position: relative;
+    /* background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
-    width: fit-content;
+    width: fit-content; */
 }
 .blurry{
-    transform: translateY(-55%);
+    /* transform: translateY(-55%); */
+    position: absolute;
+    top: -150px;
+    /* right: 10px; */
 }
-.Ellipse{
-    transform: translateY(-199%);
+.Ellipse{ 
+    /* transform: translateY(-199%);  */
+    position: absolute;
+    /* margin-left: 20px;  */
+    /* right: 0px; */
+    /* left: 0px; */
+}
+.banner{ 
+    /* transform: translateY(-269.5%);  */
+    position: absolute;
+    top: -32px;
+    /* left:0px */
+    /* right: 10px; */
+}
+.find{
+    margin-top: 240px;
+}
+.find p.we{
     margin-left: 20px;
-}
-.banner{
-    transform: translateY(-269.5%);
-}
-.find h3{
-    margin-top: -500px;
+    margin-right: 20px;
+    margin-bottom: 25px;
 }
 .destination div{
-    grid-column: 1/8;
+    grid-column: 1/7;
     margin-left:1px;
     gap: 8px;
     border: 1px solid #f2f2f2;
     background-color: #FFFFFF;
-    width: 395px;
+    width: 100%;
+    /* 395px */
     margin-bottom: 8px;
-    /* height: 395px; */
     padding: 16px 16px 32px 16px;
-    /* overflow: hidden; */
+}
+.dest{
+    margin-top: 30px;
+    /* border-style: none; */
+} 
+.location-img{
+    margin-left: 10px;
+    margin-bottom: -5px;
+    margin-right: 5px;
 }
 .mirror{
-    margin-top: 0px;
+    /* margin-top: 0px; */
     border: 1px solid #f2f2f2;
     margin-bottom: 20px;
     background-color: #FFFFFF;
 }
 .arrow{
-    margin-bottom: -8px;
+    margin-bottom: 0px;
 }
 .im{
     transform: rotate(180deg);
     padding:16px 16px 36px 16px ;
-    width: 390px;
+    width: 90%;
     margin-top: -30px;
     margin-bottom: -30px;
     margin-left: -15px;
-    margin-right: -15px;
+    margin-right: -19px; 
 }
 .destination{ 
     background-color: #F2F2F2;
     background: linear-gradient(#FFFFFF 10%,#F2F2F2 90%,); 
     box-shadow : 0px 50px 98px  #F2F2F2 ;
-    overflow: hidden;
     /* -webkit-box-shadow:0px 20px 30px 33px #F2F2F2 ;
     -moz-box-shadow:0px 20px 30px 33px #F2F2F2 ;  */
 } 
@@ -209,6 +239,7 @@ span{
     flex-direction: row;
     justify-content: center;
     margin-left: -40px;
+    margin-top: 20px;
 }
 .inst, .tw, .yt{
     width: 50px;
@@ -226,15 +257,23 @@ span{
 }
 .Shape{
     margin-left: 50px;
+    margin-top: 80px;
     transform: translateY(73%);
 }
 .group_Image{
     transform: translateY(-65%);
     margin-left: 20px;
+    /* margin-top: 80px; */
 }
-/* .text{
-    text-align: left;
-} */
+.txt{
+    margin: 0 20px;
+    font-size: 18px;
+}
+.text h3{
+    margin-bottom: 20px;
+    /* background-color: #25A59E; */
+    /* text-align: left; */
+} 
 .guide .listtop{
     border: 4px solid #25A59E; 
     margin-bottom: -28px;
@@ -248,7 +287,7 @@ span{
     /* border-top: 4px solid #25A59E; */
 }
 .guide p{
-    margin: 0 20px;
+    margin: 0 30px;
     margin-top: -50px;
 }
 .guide a{
@@ -260,10 +299,18 @@ span{
 .video h3{
     text-align: center;
     margin-block: 20px;
-    margin-top: -150px;
+    margin-top: -150px; 
+    font-size: 50px;
 }
 .video{
-    margin: 24px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+}
+.vid{
+    /* align-items: center; */
+    max-width:100% ;
+    height: auto;
 }
 .play{
     margin: 150px;
@@ -280,6 +327,8 @@ span{
     display:inline-block;
     top: 50%;
     border-radius: 0%;
+    margin: 0 20px;
+    margin-bottom: 20px;
 }
 /* .contact {
     /* display: flex; */
@@ -294,16 +343,26 @@ span{
 }
 .footer li{
     padding: 0;
-    margin: 0;
+    margin: 18px;
     display: flex;
     justify-content: center;
     text-wrap:nowrap;
     grid-column: span 1;
-    margin-left: -10px;
+    /* margin-left: -10px; */
+}
+.travel h1{
+    margin: 20px 20px;
 }
 .last{
     padding-left: 0px;
-    margin: 0;
+    margin: 0 20px;
+}
+.center{
+    text-align: center;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 0;
+    margin-right: 0;
 }
 hr.solid{
     border-top: 1px solid #d9d9d9;
