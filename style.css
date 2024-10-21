@@ -520,3 +520,54 @@ hr.solid{
         transform: translateY(-650%);
     }
 }
+@media screen and (min-width: 980px) {
+    h1{
+        font-family: 'gilda display';
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 32.83px;
+        color: #25A59E;
+        /* width: 52px;
+        /* height: 19px;  */
+        border: 0.7px;
+    }
+    h2{
+        font-family: 'gilda display';
+        font-size: 140px;
+        font-weight: 400;
+        text-align: center;
+        line-height: 150px;
+        margin-top: -10px;
+    } 
+    .menu {
+        margin-left: 850px;
+    }
+    .home-text{
+        grid-column: 1/7;
+        align-self: center;
+        font-size: 170px;
+    }
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -250px;
+        right: 140px;
+        width: 500px; 
+    }
+    .Ellipse{ 
+        /* transform: translateY(-199%);  */
+        position: absolute;
+        top: -70px;
+        /* right: 0px; */
+        left: 220px; 
+        width: 500px;
+    }
+    .banner{ 
+        /* transform: translateY(-269.5%);  */
+        position: absolute;
+        top: -22px;
+        left:320px 
+        /* right: 10px; */
+        width: 500px;
+    }
+}
