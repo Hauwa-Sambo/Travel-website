@@ -541,6 +541,7 @@ hr.solid{
     } 
     .menu {
         margin-left: 850px;
+        margin-top: 20px;
     }
     .home-text{
         grid-column: 1/7;
@@ -550,14 +551,14 @@ hr.solid{
     .blurry{
         /* transform: translateY(-55%); */
         position: absolute;
-        top: -250px;
-        right: 140px;
+        top: -230px;
+        right: 180px;
         width: 500px; 
     }
     .Ellipse{ 
         /* transform: translateY(-199%);  */
         position: absolute;
-        top: -70px;
+        top: -50px;
         /* right: 0px; */
         left: 220px; 
         width: 500px;
@@ -565,10 +566,21 @@ hr.solid{
     .banner{ 
         /* transform: translateY(-269.5%);  */
         position: absolute;
-        top: -22px;
-        left:320px 
-        /* right: 10px; */
-        width: 400px;
+        top: -102px;
+        left: 210px;
+        width: 570px;
+    }
+    .find h3{
+        font-size: 72px;
+        line-height: 84px;
+    }
+    .find p.we{
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        margin-bottom: 65px;
+        margin-top: -40px;
+        font-size: 24px;
+        line-height: 24px;
     }
     .destination div{
         /* display: block;
@@ -589,6 +601,29 @@ hr.solid{
     .mirror .im{
         /* width:315px; */
         height: 210px;
+    }
+    .center{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .guide p{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .more {
+        display: flex; 
+        justify-content: flex-end;
+        /* margin-left:260px; */
+        font-family: 'gilda display';
+        font-size:20px ;
+        line-height: 23.54px;
+        border: 0.2px; 
+        font-weight: 400px;
+        line-height: 100px; 
+        margin: 20px;
+    }
+    #detail-1{
+        margin-top: 55px;
     }
     /* .guide div{
         display: grid;
@@ -632,16 +667,31 @@ hr.solid{
     .recommendation .text{
         display: block;
         grid-column: 1/4;
-        width: 600px; */
+        width: 600px; 
         /* margin-right:100px ; */
-
+    }
+    .text h3{
+        font-size: 72px;
+        line-height: 84px;
+    }
+    .txt{
+        font-size: 18px;
+        line-height: 32px;
     }
     .recommendation .img{
         grid-column: 4/7;
         width: 600px;
-        margin-top: -40px;
+        margin-top: 30px;
         margin-bottom: 90px;
         margin-left: -150px;
+    }
+    h5{
+        font-size: 72px;
+        line-height: 84px;
+    }
+    .guide h6{
+        font-size: 40px;
+        line-height: 62px;
     }
     .video h3{
         font-size: 72px;
@@ -652,6 +702,13 @@ hr.solid{
         justify-content: space-between;
         margin-bottom: -310px;
         margin-top: 40px;
+    }
+    .get h3{
+        margin-top: -360px;
+        font-size: 62px; 
+        line-height: 84px;
+        /* align-self: center; */
+
     }
     .click{
         background-color: #25A59E;
@@ -664,6 +721,9 @@ hr.solid{
         /* margin: 0 20px; */
         margin-bottom: 350px;
         margin-top: -350px;
+        align-self: right;
+        font-size: 18px;
+        line-height: 21.16px;
     }
     .social{
         width: 300px; 
