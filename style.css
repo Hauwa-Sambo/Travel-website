@@ -697,6 +697,20 @@ hr.solid{
         font-size: 72px;
         line-height: 84px;
     }
+    .vid{
+        position: fixed;
+        top: 100px;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        overflow: hidden;
+        /* z-index: 12; */
+    }
+    .vid video{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
     .get{
         display: flex;
         justify-content: space-between;
