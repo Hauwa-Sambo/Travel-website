@@ -399,38 +399,50 @@ hr.solid{
         margin-left: 390px;
     }
     h2{
-        font-size: 70px;
+        font-size: 60px;
     }
     .blurry{
         /* transform: translateY(-55%); */
         position: absolute;
         top: -140px;
-        right: 30px; 
+        right: 20px; 
     }
     .Ellipse{ 
         /* transform: translateY(-199%);  */
         position: absolute;
         top: 10px;
         /* right: 0px; */
-        left: 70px; 
+        left: 60px; 
     }
     .banner{ 
         /* transform: translateY(-269.5%);  */
         position: absolute;
         top: -22px;
-        left:70px 
+        left:55px 
         /* right: 10px; */
     }
-    #guide-text h5{
-        width: 300px;
-        margin-left: 100px;
+    /* #guide-text h5{
+        /* width: 100px;  
+        font-size: 70px;
+        line-height: 70px; 
+        /* margin-left: 100px; 
+    } */
+    /* .center{
+        width: 370px;
+        margin-left: 60px; 
+    } */
+    /* .video h3{ 
+        /* font-size: 65px; 
+    } */
+    .img{
+        /* margin-left: 50px; */
+        grid-column: 1/7;
     }
-    .center{
-        width: 360px;
-        margin-left: 60px;
+    .text{
+        grid-column: 1/7;
     }
-    .video h3{
-        font-size: 65px;
+    .footer li{
+        margin:30px;
     }
 }
 @media screen and (min-width: 510px) {
@@ -760,20 +772,27 @@ hr.solid{
         /* width:315px; */
         height: 150px;
     }
+    .destination div:nth-child(1){
+        margin-bottom: 30px;
+    }
     .destination div:nth-child(2){
-        margin-left: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(3){
-        margin-left: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(4){
-        margin-left: 40px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(5){
-        margin-left: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(6){
-        margin-left: 40px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .guide div{
         /* margin-top: 90px; */
@@ -787,12 +806,15 @@ hr.solid{
     }
     .guide div:nth-child(3){
         grid-column: 5/7;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .guide .listtop{
         margin-top: 0px;
         margin-bottom: -28px;
     } 
+    #detail-1{
+        margin-top: 50px;
+    }
     .img{
         margin-left: 90px;
     }
@@ -847,20 +869,27 @@ hr.solid{
         /* width:315px; */
         height: 250px;
     }
+    .destination div:nth-child(1){
+        margin-bottom: 30px;
+    }
     .destination div:nth-child(2){
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(3){
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(4){
-        margin-left: 10px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(5){
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     .destination div:nth-child(6){
-        margin-left: 10px;
+        margin-left: 30px;
+        margin-bottom: 30px;
     }
     /* .guide div{
         display: grid;
@@ -875,11 +904,11 @@ hr.solid{
     }
     .guide div:nth-child(2){
         grid-column: 3/5;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .guide div:nth-child(3){
         grid-column: 5/7;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .img{
         margin-left: 90px;
@@ -921,6 +950,9 @@ hr.solid{
     #detail-2{
         margin-top: 60px;
     }
+}
+@media screen and (min-width:820px){
+
 }
 @media screen and (min-width: 860px) {
     h2{
