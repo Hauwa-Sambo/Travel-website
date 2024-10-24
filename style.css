@@ -321,6 +321,9 @@ span{
     width:100%; 
     /* height: auto; */
 }
+#contact-section{
+    margin-top: 400px;
+}
 .play{
     margin: 160px; 
     transform: translateY(-470%);
@@ -428,7 +431,7 @@ hr.solid{
         margin-left: 410px;
     }
     h2{
-        font-size: 80px;
+        font-size: 75px;
         line-height: 80px;
     }
     .blurry{
@@ -547,6 +550,11 @@ hr.solid{
         justify-content: center;
     }  
 }
+@media screen and (min-width: 620px){
+    h2{
+        font-size: 80px;
+    }
+}
 @media screen and (min-width: 650px) {
     .menu {
         margin-left: 450px;
@@ -648,23 +656,27 @@ hr.solid{
         position: absolute;
         top: -140px;
         right: 150px; 
+        /* width: 400px; */
     }
     .Ellipse{ 
         /* transform: translateY(-199%);  */
         position: absolute;
         top: 10px;
-        /* right: 0px; */
-        left: 150px; 
+        left: 150px;
+        /* width: 400px; */
     }
     .banner{ 
         /* transform: translateY(-269.5%);  */
         position: absolute;
         top: -22px;
         left:140px 
-        /* right: 10px; */
+        /* width: 500px; */
     }
 }
 @media screen and (min-width: 748px) {
+    .menu{
+        margin-left: 550px;
+    }
     h2{
         font-size: 100px;
         line-height: 100px;
@@ -709,34 +721,29 @@ hr.solid{
         height: 150px;
     }
     .destination div:nth-child(2){
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .destination div:nth-child(3){
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .destination div:nth-child(4){
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .destination div:nth-child(5){
-        margin-left: 10px;
+        margin-left: 40px;
     }
     .destination div:nth-child(6){
-        margin-left: 10px;
+        margin-left: 40px;
     }
-    /* .guide div{
-        display: grid;
-        grid-column: span 2;
-        margin: 20px 0;
-        gap: 28px;
-        border: 2px solid #f2f2f2;
-        /* border-top: 4px solid #25A59E; 
-    }*/
+    .guide div{
+        /* margin-top: 90px; */
+    }
     .guide div:nth-child(1){
         grid-column: 1/3;
     }
     .guide div:nth-child(2){
         grid-column: 3/5;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .guide div:nth-child(3){
         grid-column: 5/7;
@@ -842,6 +849,14 @@ hr.solid{
         transform: translateY(-650%);
     }
 }
+@media screen and (min-width: 790px) {
+    .mirror .im{
+        height: 160px;
+    }
+    #detail-1{
+        margin-top: 75px;
+    }
+}
 @media screen and (min-width: 850px) {
     .blurry{
         /* transform: translateY(-55%); */
@@ -862,6 +877,14 @@ hr.solid{
         top: -22px;
         left:210px 
         /* right: 10px; */
+    }
+    #detail-2{
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 860px) {
+    h2{
+        font-size: 115px;
     }
 }
 @media screen and (min-width: 870px) {
@@ -887,6 +910,9 @@ hr.solid{
         left:210px;
         width: 450px;
     }
+    #detail-3{
+        margin-top: 50px;
+    }
     .text{
         grid-column: 1/4;
     }
@@ -902,6 +928,18 @@ hr.solid{
     .find h3{
         font-size: 60px;
     } 
+    #detail-1{
+        margin-top: 90px;
+    }
+    #detail-2{
+        margin-top: 60px;
+    }
+    #detail-3{
+        margin-top: 110px;
+    }
+    .mirror .im{
+        height: 190px;
+    }
 }
 @media screen and (min-width: 980px) {
     h1{
@@ -1095,9 +1133,9 @@ hr.solid{
         /* top: 50px; */
         left: 0;
         width: 100%;
-        /* height: 50%; */
-        overflow: hidden;
-        /* z-index: 12; */
+        height: 50%; 
+        /* overflow: hidden; */
+        z-index: 12; 
     }
     .vid video{
         width: 100%;
@@ -1161,6 +1199,60 @@ hr.solid{
         width: 300px;
     } 
 }
+@media screen and (min-width:1073px) {
+    h2{
+        font-size: 165px;
+    }
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -230px;
+        right: 250px;
+        width: 500px; 
+    }
+    .Ellipse{ 
+        /* transform: translateY(-199%);  */
+        position: absolute;
+        top: -50px;
+        /* right: 0px; */
+        left: 230px; 
+        width: 500px;
+    }
+    .banner{ 
+        /* transform: translateY(-269.5%);  */
+        position: absolute;
+        top: -129px;
+        left: 180px;
+        width: 620px;
+    }
+    #detail-3{
+        margin-top: 60px;
+    }
+}
+@media screen and (min-width: 1170px) {
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -230px;
+        right: 250px;
+        width: 500px; 
+    }
+    .Ellipse{ 
+        /* transform: translateY(-199%);  */
+        position: absolute;
+        top: -50px;
+        /* right: 0px; */
+        left: 300px; 
+        width: 530px;
+    }
+    .banner{ 
+        /* transform: translateY(-269.5%);  */
+        position: absolute;
+        top: -119px;
+        left: 270px;
+        width: 630px;
+    }
+}
 @media screen and (min-width: 1200px) {
     .home-text{
         font-size: 200px;
@@ -1208,16 +1300,19 @@ hr.solid{
     #detail-1{
         margin-top: 20px;
     }
-    .img{
+    /* .img{
         margin-left: 90px;
         width: 400px;
-    }
+    } */
     .mirror .im{
         /* width:315px; */
         height: 255px; 
     }
 }
 @media screen and (min-width: 1500px) {
+    .menu{
+        margin-left: 1300px;
+    }
     h2{
         font-size: 210px;
         line-height: 180px;
@@ -1225,31 +1320,97 @@ hr.solid{
     .blurry{
         /* transform: translateY(-55%); */
         position: absolute;
-        top: -230px;
+        top: -260px;
         right: 490px;
-        width: 500px; 
+        width: 520px; 
     }
     .Ellipse{ 
         /* transform: translateY(-199%);  */
         position: absolute;
-        top: -50px;
+        top: -90px;
         /* right: 0px; */
         left: 390px; 
-        width: 500px;
+        width: 620px;
     }
     .banner{ 
         /* transform: translateY(-269.5%);  */
         position: absolute;
-        top: -112px;
-        left: 360px;
-        width: 590px;
+        top: -210px;
+        left: 460px;
+        width: 560px;
+        height: 440px;
+    }
+    .home-img{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .destination div:nth-child(1){
+        margin-bottom: 40px;
+    }
+    .destination div:nth-child(2){
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .destination div:nth-child(3){
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .destination div:nth-child(4){
+        margin-bottom: 40px;
+    }
+    .destination div:nth-child(5){
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .destination div:nth-child(6){
+        margin-left: 40px;
+        margin-bottom: 40px;
+    }
+    .mirror .im{
+        height: 300px;
+    }
+    /* .guide {
+        background-color: #F2F2F2;
+        border
+    }
+    .guide div{
+        background-color: #FFFFFF;
+    } */
+    .guide div:nth-child(1){
+        grid-column: 1/3;
+    }
+    .guide div:nth-child(2){
+        grid-column: 3/5;
+        margin-left: 30px;
+    }
+    .guide div:nth-child(3){
+        grid-column: 5/7;
+        margin-left: 30px;
     }
     #detail-1{
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .img{
-        margin-left: 900px;
-        width: 400px;
+        margin-left: 90px; 
+    } 
+    /* .img img {
+        width: 500px;
+        margin-top: 10px;
+        margin-left: 130px; 
+    } */
+    .Shape{
+        /* margin-left: 200px; */
+        width: 520px;
     }
-    
+    .group_Image{ 
+        height: 430px; 
+        width: 600px;
+        margin-top: 10px; 
+        margin-right: 50px;
+    }
+    .video h3{
+        font-size: 90px;
+        line-height: 84px;
+        text-align: center;
+    }
 }
