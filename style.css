@@ -1384,6 +1384,7 @@ hr.solid{
         height: 240px; 
     } 
     .destination div:nth-child(1){
+        /* margin-left: 40px; */
         margin-bottom: 40px;
     }
     .destination div:nth-child(2){
@@ -1395,6 +1396,7 @@ hr.solid{
         margin-bottom: 40px;
     }
     .destination div:nth-child(4){
+        /* margin-left: 40px; */
         margin-bottom: 40px;
     }
     .destination div:nth-child(5){
@@ -1449,6 +1451,51 @@ hr.solid{
         text-align: center;
         /* width: 1300px; */
         /* margin-left: 300px; */
+    }
+}
+@media screen and (min-width: 1350px) {
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -310px;
+        right: 320px;
+        width: 640px; 
+    }
+    .Ellipse{ 
+        /* transform: translateY(-199%);  */
+        position: absolute;
+        top: -80px;
+        /* right: 0px; */
+        left: 310px; 
+        width: 620px;
+    }
+    .banner{ 
+        /* transform: translateY(-269.5%);  */
+        position: absolute;
+        top: -250px;
+        left: 340px;
+        width: 580px;
+        height: 490px;
+    }
+    .home-img{
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    #guide-text .center{
+        width: 879px;
+        margin-left: 240px;
+    }
+    .Shape{
+        margin-left: 220px; 
+        width: 510px;
+        margin-top: 10px; 
+    }
+    .group_Image{ 
+        height: 400px; 
+        width: 600px;
+        margin-top: 20px; 
+        /* margin-left: -70px;  */
+        margin-bottom: 0px;
     }
 }
 @media screen and (min-width: 1400px) {
