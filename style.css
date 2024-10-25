@@ -1511,6 +1511,15 @@ hr.solid{
         height: 290px; 
     }
 }
+@media screen and (min-width: 1400px){
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -310px;
+        right: 380px;
+        width: 640px; 
+    }
+}
 /* @media screen and (min-width: 1400px) {
     .menu{
         margin-left: 1600px;
