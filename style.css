@@ -1469,17 +1469,17 @@ hr.solid{
         /* margin-right: 40px;  */
     }
     .guide{
-        margin: 0 60px;
+        margin: 0 100px;
     }
     .guide h6{
         /* font-size: 80px;
         line-height: 82px; */
         margin-top: 100px;
-        /* width: 300px; */
+        width: 300px; 
         /* margin-left: 50px; */
     }
     .guide p{
-        /* font-size: 30px; */
+        font-size: 20px; 
         /* width: 300px;  */
     }
     .guide div{
@@ -1508,9 +1508,9 @@ hr.solid{
         margin-top: -80px;
     }
     .group_Image{ 
-        height: 530px; 
+        height: 550px; 
         width: 1000px;
-        margin-top: 70px; 
+        margin-top: 60px; 
         margin-left: -70px; 
         margin-bottom: 0px;
     }
