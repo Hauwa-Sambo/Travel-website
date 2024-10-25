@@ -140,13 +140,13 @@ Here's a quick outline of the key HTML structure:
 The project includes media queries to adjust the layout for various screen sizes:
 
 
-- **1400px and below**: Adjusts the font sizes in the hero section.
+- **1400px and below**: Adjusts the font sizes in the home section.
 
 
-- **1093px and below**: Reduces font sizes and adjusts padding for elements in the hero and destination sections.
+- **1170px and below**: Reduces font sizes and adjusts padding for elements in the home and destination sections.
 
 
-- **768px and below**: Changes the layout of the hero bar to be more vertical and adjusts padding for a better fit on mobile screens.
+- **720px and below**: Changes the layout of the home bar to be more vertical and adjusts padding for a better fit on mobile screens.
 
 ## License
 
