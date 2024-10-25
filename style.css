@@ -1498,7 +1498,20 @@ hr.solid{
         margin-bottom: 0px;
     }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1385px) {
+    .blurry{
+        /* transform: translateY(-55%); */
+        position: absolute;
+        top: -310px;
+        right: 355px;
+        width: 640px; 
+    }
+    .mirror .im{
+        /* width:315px; */
+        height: 290px; 
+    }
+}
+/* @media screen and (min-width: 1400px) {
     .menu{
         margin-left: 1600px;
     }
@@ -1510,22 +1523,22 @@ hr.solid{
         line-height: 240px;
     }
     .blurry{
-        /* transform: translateY(-55%); */
+        /* transform: translateY(-55%); *
         position: absolute;
         top: -320px;
         right: 670px;
         width: 660px; 
     }
     .Ellipse{ 
-        /* transform: translateY(-199%);  */
+        /* transform: translateY(-199%); 0 *
         position: absolute;
         top: -90px;
-        /* right: 0px; */
+        /* right: 0px; *
         left: 640px; 
         width: 660px;
     }
     .banner{ 
-        /* transform: translateY(-269.5%);  */
+        /* transform: translateY(-269.5%);  *
         position: absolute;
         top: -240px;
         left: 690px;
@@ -1562,7 +1575,7 @@ hr.solid{
         margin-bottom: 40px;
     }
     .mirror .im{
-        /* width:315px; */
+        /* width:315px; *
         height: 430px;
     }
     /* .guide {
@@ -1571,36 +1584,36 @@ hr.solid{
     }
     .guide div{
         background-color: #FFFFFF;
-    } */
+    } *
     .guide div:nth-child(1){
         grid-column: 1/3;
     }
     .guide div:nth-child(2){
         grid-column: 3/5;
         margin-left: 70px;
-        /* margin-right: 40px;  */
+        /* margin-right: 40px;  *
     }
     .guide div:nth-child(3){
         grid-column: 5/7;
         margin-left: 70px;
-        /* margin-right: 40px;  */
+        /* margin-right: 40px;  *
     }
     .guide{
         margin: 0 100px;
     }
     .guide h6{
         /* font-size: 80px;
-        line-height: 82px; */
+        line-height: 82px; *
         margin-top: 100px;
         width: 300px; 
-        /* margin-left: 50px; */
+        /* margin-left: 50px; *
     }
     .guide p{
         font-size: 20px; 
-        /* width: 300px;  */
+        /* width: 300px;  *
     }
     .guide div{
-        /* width: 650px;  */
+        /* width: 650px;  *
     }
     #detail-1{
         margin-top: 200px;
@@ -1612,13 +1625,13 @@ hr.solid{
         margin-top: 200px;
     }
     .img img{
-        /* margin-left: 100px;   */
+        /* margin-left: 100px;   *
     } 
     /* .img img {
         width: 500px;
         margin-top: 10px;
         margin-left: 130px; 
-    } */
+    } *
     .Shape{
         margin-left: 60px; 
         width: 800px;
@@ -1657,4 +1670,4 @@ hr.solid{
         width: 670px;
         margin-left: 700px;
     }
-}
+} */
