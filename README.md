@@ -1,3 +1,4 @@
+
 # Travel-website
 
 **Description**: This project is a web page designed with HTML and CSS, featuring a responsive layout and modern design elements. 
@@ -139,7 +140,7 @@ Here's a quick outline of the key HTML structure:
 The project includes media queries to adjust the layout for various screen sizes:
 
 
-- **1500px and below**: Adjusts the font sizes in the hero section.
+- **1400px and below**: Adjusts the font sizes in the hero section.
 
 
 - **1093px and below**: Reduces font sizes and adjusts padding for elements in the hero and destination sections.
@@ -163,3 +164,6 @@ This project is licensed under the MIT License.
 
 
 - **GitHub:** [Hauwa-Sambo]( https://github.com/Hauwa-Sambo)
+
+
+
